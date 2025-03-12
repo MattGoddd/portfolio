@@ -5,13 +5,15 @@
     <title>Portfolio</title>
     <script src = 'script.js'></script>
     <link rel = 'stylesheet' href = 'styles.css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+</head>
 </head>
 <body>
     <header class = "navbar">
         <div class = "logo-container">
             <img src = "../images/logo.png" alt = "logo" class = "logo">
             <span class = "brand-name">
-                <span class = "first-name">Matthew </span><span class = "last-name">Goh</span>
+                <span class = "white">Matthew </span><span class = "purple">Goh</span>
             </span>
         </div>
         <nav class = "nav-links">
@@ -19,11 +21,81 @@
             <span>|</span>
             <a href = "#">Projects</a>
             <span>|</span>
-            <a href = "#">
-                <button class = "contact-btn">Contact</button>
-            </a>
+            <button class = "contact-btn" href = "#">Contact</button>
         </nav>
     </header>
+
+    <main class = "fade-in">
+        <!-- Can consider to add a fade in option for the content-->
+        <div class = "main-container">
+            <div>
+                <!-- Left side containter for image of face-->
+                <img src = "../images/portrait.png" alt = "portrait" class = "face-image">
+            </div>
+            <div class = "main-content">
+                <!--Right side container for content-->
+                <div class = "content-top">
+                    <p>Always Learning.</p>
+                    <p class = "purple">Always Curious.</p>
+                </div>
+                <div class = "content-mid">
+                    <p>I am a curious student who is passionate about Computer Science.</p>
+                    <span>In particular, I like to focus on </span>
+                    <span class = "purple">Web Development </span>
+                    <span>and </span>
+                    <span class="purple">Machine Learning.</span>
+                    <p></p>
+                    <p></p>
+                    <p>I am a <span class="purple">keen</span> learner, and I am open to any opportunities given to me.</p>
+                    <p>I am excited to work hard and to explore the vast world in programming!</p>
+                </div>
+                <div class = "content-icon">
+                    <a href="#" class = "about-icon">About</a>
+                    <a href="#" class = "project-icon">Projects</a>
+                    <a href="#" class = "contact-icon">Contact</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class ="fade-in">
+        <hr>
+        <div class = "footer">
+            <div class = "footer-title">
+                Phone
+                <p class = "footer-content">
+                    +65 85001774
+                </p>
+            </div>
+            <div class = "footer-title">
+                Email
+                <p class = "footer-content">
+                    mattgoh2004@gmail.com
+                </p>
+            </div>
+            <div class = "footer-title">
+                Follow me
+                <br>
+                <div class = "footer-content social-media">
+                    <a href="https://www.linkedin.com" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:your-email@gmail.com">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            <div class = "copyright">
+                &copy; 2025 by Matthew Goh
+            </div>
+
+        </div>
+
+    </footer>
     
 </body>
 </html>
